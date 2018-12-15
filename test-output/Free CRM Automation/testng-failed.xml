@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free CRM Automation]">
+  <test name="Xceltech(failed)">
+    <classes>
+      <class name="com.xcelTechCRM.qa.TestCase.TestLogin">
+        <methods>
+          <include name="TestInsertUserName"/>
+          <include name="setup"/>
+          <include name="Titlevalidation"/>
+        </methods>
+      </class> <!-- com.xcelTechCRM.qa.TestCase.TestLogin -->
+      <class name="com.xcelTechCRM.qa.TestCase.TestHome">
+        <methods>
+          <include name="ClickingContacts"/>
+          <include name="clickingContactsspecific"/>
+          <include name="validateUsersLabel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.xcelTechCRM.qa.TestCase.TestHome -->
+    </classes>
+  </test> <!-- Xceltech(failed) -->
+</suite> <!-- Failed suite [Free CRM Automation] -->

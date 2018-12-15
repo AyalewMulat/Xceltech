@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free XcelTech Login Sanity]">
+  <test name="Xceltech(failed)">
+    <classes>
+      <class name="com.xcelTechCRM.qa.TestCase.TestLogin">
+        <methods>
+          <include name="TestInsertUserName"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="Titlevalidation"/>
+        </methods>
+      </class> <!-- com.xcelTechCRM.qa.TestCase.TestLogin -->
+    </classes>
+  </test> <!-- Xceltech(failed) -->
+</suite> <!-- Failed suite [Free XcelTech Login Sanity] -->

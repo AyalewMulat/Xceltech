@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Free XcelTech Login Sanity">
+
+<!-- <listeners>
+
+
+<listener class-name ="com.qa.crmReportlitener.ExtentReportLitener" />
+
+</listeners> -->
+
+   <test name="Xceltech">
+      
+      <classes>
+            
+       <class name="com.xcelTechCRM.qa.TestCase.TestLogin"></class>
+    
+      
+      </classes>
+
+
+   </test>
+
+
+</suite>

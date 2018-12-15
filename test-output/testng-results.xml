@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30836" started-at="2018-12-12T19:03:29Z" finished-at="2018-12-12T19:03:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30836" started-at="2018-12-12T19:03:29Z" finished-at="2018-12-12T19:03:59Z">
+      <class name="com.xcelTechCRM.qa.TestCase.TestContacts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xcelTechCRM.qa.TestCase.TestContacts@18be83e4]" name="setup" is-config="true" duration-ms="29579" started-at="2018-12-12T14:03:29Z" finished-at="2018-12-12T14:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyContactslabel()[pri:0, instance:com.xcelTechCRM.qa.TestCase.TestContacts@18be83e4]" name="VerifyContactslabel" duration-ms="41" started-at="2018-12-12T14:03:58Z" finished-at="2018-12-12T14:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactslabel -->
+        <test-method status="FAIL" signature="NewContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xcelTechCRM.qa.TestCase.TestContacts@18be83e4]" name="NewContacts" duration-ms="0" started-at="2018-12-12T14:03:59Z" data-provider="getXcelTechTestData" finished-at="2018-12-12T14:03:59Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:143)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at com.xcelTech.qa.Util.TestUtil.getTestData(TestUtil.java:123)
+	at com.xcelTechCRM.qa.TestCase.TestContacts.getXcelTechTestData(TestContacts.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:117)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewContacts -->
+      </class> <!-- com.xcelTechCRM.qa.TestCase.TestContacts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
